@@ -1,5 +1,5 @@
-# Data Science Project Template
-This repository is a template for my data science projects containing the following files and folders:
+# Traffic-Driven Restaurant Success Prediction
+Description: 
 - `data`:
 - `notebooks`: experimental notebooks
 - `src`: finalized scripts
