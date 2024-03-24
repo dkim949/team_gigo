@@ -23,3 +23,6 @@
 | vehicle traffic    | idw_aadt_2019             | estimated annual average daily traffic in 2019         | AADT   |
 | vehicle traffic    | idw_aadt_2020             | estimated annual average daily traffic in 2020         | AADT   |
 | vehicle traffic    | idw_aadt_2021             | estimated annual average daily traffic in 2021         | AADT   |
+| vehicle traffic    | idw_atvc_2018             | estimated median vehicle traffic count in 2018         |        |
+| vehicle traffic    | idw_atvc_2019             | estimated median vehicle traffic count in 2019         |        |
+| vehicle traffic    | idw_atvc_2020             | estimated median vehicle traffic count in 2020         |        |
