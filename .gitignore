@@ -1,7 +1,7 @@
 data/raw/nyc_mappluto_23v3_1_shp/*
 *.geojson
-*.csv
 *.qmd
 .DS_Store
 ._.DS_Store
 *.zip
+notebooks/*.csv
