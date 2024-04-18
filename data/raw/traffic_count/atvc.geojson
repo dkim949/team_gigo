@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "atvc",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2263" } },
+"features": [
+{ "type": "Feature", "properties": { "Yr": 2022, "street": "STATE STREET", "fromSt": "Bridge Street", "toSt": "Battery Place", "mean": 52.339120370370374, "median": 51.0 }, "geometry": { "type": "Point", "coordinates": [ 980278.631764561287127, 195767.608436328737298 ] } }
+]
+}
