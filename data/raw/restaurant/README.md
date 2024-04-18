@@ -10,13 +10,13 @@
 
 
 ## Code
-- ```neighborhoods.txt```: the list of neighborhoods of ~~Manhattan borough~~ all the NYC boroughs.
-- ```get-nyc-restaurants.py```: fetch the restaurant data from API, and save as json(restaurants.json). 
+- ```tract_centroids.csv```: centroids distributed evenly over Manhattan borough.
+- ```get-restaurants-with-centroids.py```: fetch the restaurant data from API, and save as json(restaurants.json). 
 - ```json-to-csv.py```: transform the json file(restaurants.json) to csv file(restaurants.csv)
 
 
 
-### get-nyc-restarutants.py
+### get-restarutants-with-centroids.py
 Copy and paste the credential key as parameter of Client getter function before run this code.
 ```
 import googlemaps
@@ -31,8 +31,8 @@ All the fields available on Places API are here: Google places data fields: http
 
 ## Run the code
 ```
-python get-nyc-restaurants.py
-python json-to-csv.py
+python get-restaurants-with-centroids.py # fetch from Google Place API and save as restaurants.json
+python json-to-csv.py # read restaruants.json and save as restaurants.csv
 ```
 
 
