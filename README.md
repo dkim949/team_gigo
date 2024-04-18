@@ -1,12 +1,14 @@
 # Traffic-Driven Restaurant Success Prediction
 Description: 
-- `data`:
+- `data`: datasets for analysis
+- `models`: saved models in pickle format
 - `notebooks`: experimental notebooks
 - `visualization_webapp`: Front & Back-end files for the visualization web application which was deployed at [Link](https://teamgigo.netlify.app/) 
 - `src`: finalized scripts
 - `LICENSE`: which license to use
 - `README.md`: instruction for setup and usage
 - `environment.yml`: starter environment
+- `requirements.txt`: required libraries
 - `setup.py`
 
 # Virtual Environment Setup
