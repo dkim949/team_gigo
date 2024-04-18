@@ -15,7 +15,6 @@ Description:
 - Create VENV using desired python version: ```conda create -n <env_name> python=<version>```
 - Create VENV using environment.yaml: ```conda env create -f environment.yaml```
 - Installation using requirements.txt: ```pip install -r requirements.txt```
-- For torch installation: ```pip3 install torch torchvision torchaudio```
 - Save the environment: ```conda env export > environment.yaml```
 - For the visualization web application
   - For front-end part (React App): ```npm install``` at `./visualization_webapp`
