@@ -158,9 +158,9 @@ const PredictPanel = () => {
       office_450: office_within_450ft,
       food_100,
     };
-    axios.defaults.withCredentials = true;
+    console.log(xData);
     axios
-      .get("https://teamgigo-dbd388857a8d.herokuapp.com/predict", {
+      .get("http://localhost:5000/predict", {
         params: xData,
       })
       .then((response) => {
