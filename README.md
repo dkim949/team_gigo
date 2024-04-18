@@ -26,8 +26,10 @@ Description:
   - Run `1_processing_subway_ridership.ipynb` at ```./notebooks/subway_ridership```
   - Run `1_filter_borough_usability.ipynb` ~ `7_calculated predicted probability.ipynb` at ```./notebooks/buidling/```
   - Run `1_map_bin_of_restaurants.ipynb` at ```./notebooks/restaurant```
-- For Supervised learnging
-  - @Peter Please write some description for execute your code
+- For Supervised learning
+  - Download the latest DOHMH NYC Restaurant Inspection Dataset at https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data
+  - Place the downloaded data in the path ```./data/raw/```
+  - Run 20240417_Restaurant_Prediction.ipynb
   - (XGBoost) Run survival_prediction.ipynb
 - For Unsupervised learning
   - (KMean) Run `building_clustering.ipynb` at ```./notebooks```   
