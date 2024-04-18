@@ -28,6 +28,7 @@ Description:
   - Run `1_map_bin_of_restaurants.ipynb` at ```./notebooks/restaurant```
 - For Supervised learning
   - Download the latest DOHMH NYC Restaurant Inspection Dataset at https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data
+  - Place the downloaded data in the path ```./data/raw/```
   - Run 20240417_Restaurant_Prediction.ipynb
   - (XGBoost) Run survival_prediction.ipynb
 - For Unsupervised learning
