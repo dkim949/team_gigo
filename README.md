@@ -20,6 +20,17 @@ Description:
   - For back-end part (Flask App): ```pip install -r requirements.txt``` at `./visualization_webapp/backend`
 
 # Execution 
+- Data Processing
+  - Run `traffic_count_data.ipynb` at ```./notebooks``` 
+  - Run `1_calculate_centrality.ipynb` at ```./notebooks/street_network```
+  - Run `1_processing_subway_ridership.ipynb` at ```./notebooks/subway_ridership```
+  - Run `1_filter_borough_usability.ipynb` ~ `7_calculated predicted probability.ipynb` at ```./notebooks/buidling/```
+  - Run `1_map_bin_of_restaurants.ipynb` at ```./notebooks/restaurant```
+- For Supervised learnging
+  - @Peter Please write some description for execute your code
+  - (XGBoost) Run survival_prediction.ipynb
+- For Unsupervised learning
+  - (KMean) Run `building_clustering.ipynb` at ```./notebooks```   
 - For the visualization web application
   - Run the front-end: ```npm start``` at `./visualization_webapp`
   - Run the back-end: ```python application.py``` at `./visualization_webapp/backend`
