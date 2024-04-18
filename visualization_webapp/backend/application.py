@@ -3,14 +3,12 @@ import pandas as pd
 from flask import Flask
 from flask import request, jsonify
 from flask_cors import CORS
-from flask_cors import cross_origin
 
 import joblib
 
 # create an app and load the model
 app = Flask(__name__)
-CORS(app, supports_credentials=True)
-app.config['CORS_HEADERS'] = 'Content-Type'
+CORS(app)
 model = joblib.load('model_forest.pkl')
 scaler = joblib.load('scaler.pkl')
 
@@ -35,16 +33,17 @@ def predict():
 
         # get request parameters
         query_parameters = request.args
-
         # convert the query parameters into a Python dictionary
         query_dict = dict(query_parameters)
+        app.logger.info(query_parameters)
         # convert the dictionary into a pandas DataFrame
         df_input = pd.DataFrame([query_dict])
+
         df_input = df_input.loc[:,columns].astype(float)
         df_input = scaler.transform(df_input)
         df_input = pd.DataFrame(df_input, columns=columns)
         prediction = list(model.predict_proba(df_input))[0][1]
-        app.logger.info(prediction)
+        
         return jsonify({'prediction': float(prediction)})
     except Exception as e:
         return jsonify({'error': str(e)})
