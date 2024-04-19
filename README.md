@@ -21,7 +21,8 @@
   - For front-end part (React App): `npm install` at `./visualization_webapp`
   - For back-end part (Flask App): `pip install -r requirements.txt` at `./visualization_webapp/backend`
 - Download datasets
-  - Download the latest DOHMH NYC Restaurant Inspection Dataset at `https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data` and Place the downloaded data in the path `./data/raw/`  
+  - Download the latest DOHMH NYC Restaurant Inspection Dataset at `https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data`
+    - Place the downloaded data in the path `./data/raw/`  
 
 # Execution
 - Data Processing
@@ -29,7 +30,7 @@
 - Unsupervised learning (Kmeans Clustering) and Supervised learning (XGBoost)
   - `python main.py`
 - Supervised learning with Random Forest
-  - Run 20240417_Restaurant_Prediction.ipynb
+  - Run `20240417_Restaurant_Prediction.ipynb`
 - the visualization web application
   - Front-end: `npm start` at `./visualization_webapp`
   - Back-end: `python application.py` at `./visualization_webapp/backend`
