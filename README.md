@@ -26,7 +26,7 @@
 
 # Execution
 - Data Processing
-  - Processing building dataset (sampled): `python processing_building_data.py`
+  - Processing building dataset (sampled for submission): `python processing_building_data.py`
 - Unsupervised learning (Kmeans Clustering) and Supervised learning (XGBoost)
   - `python main.py`
 - Supervised learning with Random Forest
