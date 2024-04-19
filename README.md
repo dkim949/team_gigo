@@ -15,8 +15,8 @@
 
 ## Installation
 - Create VENV using desired python version: `conda create -n <env_name> python=<version>`
-- Create VENV using environment.yaml: `conda env create -f environment.yaml`
-- Save the environment: `conda env export > environment.yaml`
+- Create VENV using environment.yaml: `conda env create -f environment.yml`
+- Save the environment: `conda env export > environment.yml`
 - For the visualization web application
   - For front-end part (React App): `npm install` at `./visualization_webapp`
   - For back-end part (Flask App): `pip install -r requirements.txt` at `./visualization_webapp/backend`
