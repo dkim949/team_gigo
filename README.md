@@ -10,6 +10,7 @@ Description:
 - `LICENSE`: which license to use
 - `README.md`: instruction for setup and usage
 - `environment.yml`: starter environment
+  - This guide assumes that the reader is able to install and run PySpark in the virtualenv.
 - `requirements.txt`: required libraries
 - `setup.py`
 
